@@ -1,25 +1,14 @@
 {
   "$schema": "../node_modules/ng-packagr/package.schema.json",
-  "name": "@ng-select/ng-select",
-  "version": "2.16.2",
-  "description": "Angular ng-select - All in One UI Select, Multiselect and Autocomplete",
-  "author": "@ng-select/ng-select",
+  "name": "ng-select-fixed",
+  "version": "1.0.0",
+  "description": "Japanese input issue fixed @ng-select/ng-select module",
+  "author": "tagbangers",
   "license": "MIT",
-  "repository": "ng-select/ng-select",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
   },
-  "keywords": [
-    "angular",
-    "select",
-    "ui-select",
-    "dropdown",
-    "multiselect",
-    "autocomplete",
-    "angular2",
-    "angular4"
-  ],
   "peerDependencies": {
     "@angular/common": ">=6.0.0 <8.0.0",
     "@angular/core": ">=6.0.0 <8.0.0",
@@ -31,5 +20,9 @@
       "entryFile": "index.ts"
     },
     "dest": "../dist"
+  },
+  "publishConfig": {
+    "registry": "https://crew.tagbangers.co.jp/nexus/repository/npm-hosted",
+    "access": "public"
   }
 }
